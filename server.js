@@ -19,6 +19,13 @@ server.get("/test",(request,response)=>{
 })
 // http://localhost:3000/test
 
-// server.get('/data',(request,response)=>{
-
-// })
+server.get('/data',(request,response)=>{
+    let cars =[
+{
+name:'ferrari'
+}
+{
+name:'ford'
+}
+    ]
+})
