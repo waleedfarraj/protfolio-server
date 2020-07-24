@@ -23,9 +23,9 @@ server.get('/data',(request,response)=>{
     let cars =[
 {
 name:'ferrari'
-}
+},
 {
 name:'ford'
 }
-    ]
+    ];
 })
