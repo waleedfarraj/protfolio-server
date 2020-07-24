@@ -15,7 +15,7 @@ server.listen(PORT,() => {
 server.get("/test",(request,response)=>{
     response.send("you are awsome");
 })
-server.use(express.static("/puplic "));
+server.use(express.static('./puplic'));
 
 
 // http://localhost:3000/test
