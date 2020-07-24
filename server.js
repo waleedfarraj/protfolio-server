@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT,() => { 
     console.log('I am listening to port' , PORT);
 });
-server.use(express.static("./public"));
+server.use(express.static("./puplic"));
 
 server.get("/test",(request,response)=>{
     response.send("you are awsome");
