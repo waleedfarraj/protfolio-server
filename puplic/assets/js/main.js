@@ -123,9 +123,3 @@
 })(jQuery);
 
 // video to play in background
-// Click a random element
-document.getElementById('main').click();
-// Play video after click
-setTimeout(function(){
-    document.getElementById('video').play();
-}, 1500);
