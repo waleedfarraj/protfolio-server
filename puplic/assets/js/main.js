@@ -124,7 +124,7 @@
 
 // video to play in background
 // Click a random element
-document.getElementById('randomElement').click();
+document.getElementById('main').click();
 // Play video after click
 setTimeout(function(){
     document.getElementById('video').play();
